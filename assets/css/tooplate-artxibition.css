@@ -637,11 +637,11 @@ banner
 }
 .main-banner .logo-img {
   position: absolute;
-  top: 20px; /* Atur sesuai kebutuhan */
+  top: 10px; /* Atur sesuai kebutuhan */
   left: 50%;
   transform: translateX(-50%);
   height: 300px;
-  z-index: 10; /* Pastikan gambar berada di atas elemen lain */
+  z-index: 12; /* Pastikan gambar berada di atas elemen lain */
 }
 .main-banner .next-show span {
   display: block;
@@ -909,7 +909,24 @@ Coming Events
   top: 50%;
   margin-top: -22.5px;
 }
+.coming-events .down-content .price {
+  background-color: rgba(87, 154, 231, 0.3);
+  display: inline-block;
+  padding: 20px;
+  margin-top: 25px;;
+  margin-bottom: 30px;
+}
+.coming-events .down-content .price span {
+  color: #000000;
+  font-size: 14px;
+  line-height: 25px;
+}
 
+.coming-events .down-content  .price span em {
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+}
 .event-item .thumb img {
   width: 100%;
   overflow: hidden;
