@@ -597,7 +597,6 @@ header
 banner
 --------------------------------------------- 
 */
-
 .main-banner {
   background-image: url(../images/banner_bg.jpg);
   background-repeat: no-repeat;
@@ -636,7 +635,14 @@ banner
 .main-banner .next-show i {
   font-size: 12px;;
 }
-
+.main-banner .logo-img {
+  position: absolute;
+  top: 20px; /* Atur sesuai kebutuhan */
+  left: 50%;
+  transform: translateX(-50%);
+  height: 300px;
+  z-index: 10; /* Pastikan gambar berada di atas elemen lain */
+}
 .main-banner .next-show span {
   display: block;
   font-size: 14px;
